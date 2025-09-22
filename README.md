@@ -1,13 +1,13 @@
 # EXPERIMENT 16: RECURSION AND EXCEPTION HANDLING IN C++
 
-## Aim
+## AIM
 To understand and implement **Recursion** and **Exception Handling** in C++ by writing a program that uses a recursive function and handles invalid inputs or run-time errors gracefully.
 
-## Tools Used
+## TOOLS USED
 - **Language:** C++ (any standard compiler such as g++, clang++)
 - **Editor/IDE:** VS Code / Code::Blocks / Dev C++ / Terminal
 
-## Theory
+## THEORY
 
 ### Recursion
 Recursion is the process where a function calls itself directly or indirectly to solve a problem.  
@@ -48,18 +48,18 @@ In real programs, a recursive function can validate input or detect errors and u
 
 ---
 
-## Key Points
+## KEY POINTS
 - **Recursion** = repeated self-calling until base condition.
 - **Exception Handling** = controlled error detection and recovery.
 - Together, they improve program **clarity** and **robustness**.
 
-## Practical Use
+## PRACTICAL USE
 - **Recursion:** Used in algorithms like factorial, Fibonacci, file directory traversal, etc.
 - **Exception Handling:** Used to handle invalid inputs, file I/O errors, or memory allocation failures.
 
 ## EXPERIMENT 16(A): FACTORIAL USING RECURSION
 
-### Algorithm
+### ALGORITHM
 
 1. **Start** the program.
 2. **Define** a recursive function `fact(n)`:
@@ -71,7 +71,7 @@ In real programs, a recursive function can validate input or detect errors and u
 
 ## EXPERIMENT 16(B): SUM OF NUMBERS USING RECURSION
 
-### Algorithm  
+### ALGORITHM  
 
 1. **Start** the program.  
 2. **Define** a recursive function `add(n)`:
@@ -83,7 +83,7 @@ In real programs, a recursive function can validate input or detect errors and u
 
 ## EXPERIMENT 16(C): REVERSE STRING USING RECURSION
 
-### Algorithm
+### ALGORITHM
 
 1. **Start** the program.  
 2. **Define** a recursive function `reverseString(str)`:
@@ -96,7 +96,7 @@ In real programs, a recursive function can validate input or detect errors and u
 
 ## EXPERIMENT 16(D): EXCEPTION HANDLING – DIVISION BY ZERO
 
-### Algorithm
+### ALGORITHM
 
 1. **Start** the program.  
 2. **Declare** two float variables `a` and `b` to store input numbers, and `ans` to store the result.  
@@ -110,7 +110,7 @@ In real programs, a recursive function can validate input or detect errors and u
 
 ## EXPERIMENT 16(E): EXCEPTION HANDLING – VOTER AGE VERIFICATION
 
-### Algorithm
+### ALGORITHM
 
 1. **Start** the program.  
 2. **Declare** an integer variable `age`.  
@@ -126,7 +126,7 @@ In real programs, a recursive function can validate input or detect errors and u
    - In the second `catch` block, **catch** `runtime_error &e` and **print** the error message.  
 5. **End** the program.  
 
-## Conclusion
+## CONCLUSION
 
 In this experiment, we implemented **recursion** to solve problems like factorial calculation, summation, and string reversal,  
 and explored **exception handling** to manage runtime errors and invalid inputs.  
